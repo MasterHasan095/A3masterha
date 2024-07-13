@@ -1,4 +1,4 @@
-class A3Classmasterha{
+export class A3Classmasterha{
     fullName991698598: string;
     id991698598: number;
     email991698598: string;

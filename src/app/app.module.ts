@@ -11,10 +11,22 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { MaterialModule } from './modules/material-ui.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
+import { HeaderMasterhaComponent } from './header-masterha/header-masterha.component';
+import { FooterMasterhaComponent } from './footer-masterha/footer-masterha.component';
+import { GoldMasterhaComponent } from './gold-masterha/gold-masterha.component';
+import { SilverMasterhaComponent } from './silver-masterha/silver-masterha.component';
+import { BronzeMasterhaComponent } from './bronze-masterha/bronze-masterha.component';
+import { MedalsMasterhaComponent } from './medals-masterha/medals-masterha.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderMasterhaComponent,
+    FooterMasterhaComponent,
+    GoldMasterhaComponent,
+    SilverMasterhaComponent,
+    BronzeMasterhaComponent,
+    MedalsMasterhaComponent
   ],
   imports: [
     BrowserModule,
