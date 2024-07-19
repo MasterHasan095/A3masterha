@@ -1,1 +1,8 @@
-<p>medals-masterha works!</p>
+<mat-grid-list cols="3" rowHeight="1:1" [ngStyle]="{'border': '2px solid black'}">
+    <mat-grid-tile
+      *ngFor="let medal of medals"
+      [ngStyle]="{'display': 'flex', 'justify-content': 'center', 'align-items': 'center'}">
+      <img [src]="medal.src" [ngStyle]="{'width': '20vw'}"/>
+    </mat-grid-tile>
+  </mat-grid-list>
+  

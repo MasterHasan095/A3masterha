@@ -1,0 +1,11 @@
+mat-grid-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  mat-grid-tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

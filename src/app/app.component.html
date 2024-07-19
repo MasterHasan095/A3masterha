@@ -1,4 +1,71 @@
 <link href = "https://fonts.googleapis.com/icon?family=Material+Icons">
 
 <app-header-masterha [HFmasterha] = "profileHasanMaster"></app-header-masterha>
+<mat-toolbar>
+    <a routerLink="/">
+    <button
+      mat-fab
+      extended
+      [ngStyle]="{
+        'background-color': 'cyan',
+        display: 'flex',
+        'flex-direction': 'column'
+      }"
+      (click)="showMedal('medals')"
+    >
+      <p [ngStyle]="{ margin: '0' }">Show All Medals</p>
+      <img src="/images/medals.svg" width="50" />
+    </button>
+    </a>
+    <a routerLink="/gold">
+    <button
+      mat-fab
+      extended
+      [ngStyle]="{
+        'background-color': 'cyan',
+        display: 'flex',
+        'flex-direction': 'column'
+      }"
+      (click)="showMedal('gold')"
+
+    >
+      <p [ngStyle]="{ margin: '0' }">Click for GOLD</p>
+      <img src="/images/gold.svg" width="25" />
+    </button>
+    </a>
+    <a routerLink="/silver">
+    <button
+      mat-fab
+      extended
+      [ngStyle]="{
+        'background-color': 'cyan',
+        display: 'flex',
+        'flex-direction': 'column'
+      }"
+      (click)="showMedal('silver')"
+
+    >
+      <p [ngStyle]="{ margin: '0' }">Click for SILVER</p>
+      <img src="/images/silver.svg" width="25" />
+    </button>
+    </a>
+    <a routerLink="/bronze">
+    <button
+      mat-fab
+      extended
+      [ngStyle]="{
+        'background-color': 'cyan',
+        display: 'flex',
+        'flex-direction': 'column'
+      }"
+      (click)="showMedal('bronze')"
+
+    >
+      <p [ngStyle]="{ margin: '0' }">Click for BRONZE</p>
+      <img src="/images/bronze.svg" width="25" />
+    </button>
+    </a>
+  </mat-toolbar>
+  
+<router-outlet></router-outlet>
 <app-footer-masterha [HFmasterha] = "profileHasanMaster"></app-footer-masterha>
