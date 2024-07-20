@@ -13,3 +13,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+.BUTTONmasterha{
+  background-color: black;
+  font-weight: bold;
+  align-items: center;
+  font-variant: small-caps;
+  font-style: italic;
+}

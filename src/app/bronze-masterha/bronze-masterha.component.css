@@ -1,0 +1,14 @@
+.button{
+    width: 25vw;
+    margin: 10px;
+}
+.button2{
+    width: 15vw;
+
+}
+.button-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

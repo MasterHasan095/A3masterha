@@ -1,1 +1,12 @@
-<p>gold-masterha works!</p>
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>
+        <img src="/images/{{medal | lowercase}}.svg" [id]="medal" [ngStyle]="{'width':'25vw'}">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <div [ngClass]="'button-div'">
+            <button mat-fab extended [ngStyle]="{'background-color': 'cyan'}" [ngClass]="{'button1': true, 'button': true, 'BUTTONmasterha': true}" (click)="masterhaCelebration(medal)">You won {{medal}}! ... Click for celebration!</button>
+            <button mat-fab extended [ngStyle]="{'background-color': 'cyan'}" [ngClass]="{'button2': true, 'button': true, 'BUTTONmasterha': true}" (click)="masterhaShowMedal(medal)">Show Medal</button>
+        </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+  
