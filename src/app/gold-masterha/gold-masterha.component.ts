@@ -7,7 +7,7 @@ import { MasterhaService } from '../Services/masterha.service';
   styleUrl: './gold-masterha.component.css'
 })
 export class GoldMasterhaComponent {
-  medal: string = "GOLD";
+  masterhaMedal: string = "GOLD";
 
   constructor(private masterhaService: MasterhaService){}
   masterhaCelebration(imageId: string): void {

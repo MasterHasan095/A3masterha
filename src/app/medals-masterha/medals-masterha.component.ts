@@ -7,10 +7,10 @@ import { MasterhaService } from '../Services/masterha.service';
 })
 export class MedalsMasterhaComponent {
 
-  medals = [
-    { src: '/images/gold.svg' },
-    { src: '/images/silver.svg' },
-    { src: '/images/bronze.svg' }
+  masterhaMedals = [
+    { src: 'images/gold.svg' },
+    { src: 'images/silver.svg' },
+    { src: 'images/bronze.svg' }
   ];
 
 }

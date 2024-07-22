@@ -1,8 +1,8 @@
 <mat-grid-list cols="3" rowHeight="1:1" >
     <mat-grid-tile
-      *ngFor="let medal of medals"
+      *ngFor="let masterhaMedal of masterhaMedals"
       [ngStyle]="{'display': 'flex', 'justify-content': 'center', 'align-items': 'center'}">
-      <img [src]="medal.src" [ngStyle]="{'width': '20vw'}"/>
+      <img [src]="masterhaMedal.src" [ngStyle]="{'width': '20vw'}"/>
     </mat-grid-tile>
 </mat-grid-list>
   

@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class MasterhaService {
 
-  masterhaCelebration(imageId: string): void {
+  masterhaCelebration(imageId: any): void {
 
     const imageElement = document.getElementById(imageId);
   
@@ -17,7 +17,7 @@ export class MasterhaService {
   }
   
 
-  masterhaShowMedal(imageId: string): void {
+  masterhaShowMedal(imageId: any): void {
     const imageElement = document.getElementById(imageId);
     
     if (imageElement) {

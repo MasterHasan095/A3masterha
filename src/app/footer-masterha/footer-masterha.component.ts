@@ -7,5 +7,4 @@ import { A3Classmasterha } from '../classmasterha';
 })
 export class FooterMasterhaComponent {
   @Input() HFmasterha?: A3Classmasterha ;
-
 }
